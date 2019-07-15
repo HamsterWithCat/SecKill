@@ -1,0 +1,15 @@
+2019/06/30 14:42:20.788 [E] [main.go:17]  init redis filed,err: connecte to redis failed err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/06/30 14:43:30.782 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/06/30 14:46:33.643 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|     1.9832ms| nomatch|[44m GET     [0m /  
+2019/06/30 14:46:33.971 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|      496.6µs| nomatch|[44m GET     [0m /favicon.ico
+2019/06/30 14:46:37.469 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|      497.5µs| nomatch|[44m GET     [0m /  
+2019/06/30 14:47:54.987 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|      985.6µs| nomatch|[44m GET     [0m /SecKill
+2019/06/30 14:48:03.835 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|      991.6µs| nomatch|[44m GET     [0m /SecInfo
+2019/06/30 14:48:09.000 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Secinfo
+2019/06/30 14:48:21.115 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      2.976ms|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/06/30 14:48:29.922 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/06/30 18:19:47.301 [I] [main.go:17]  init sec success
+2019/06/30 18:19:47.301 [D] [asm_amd64.s:1337]  begin watch key:./backend/seckill/product
+2019/06/30 18:19:47.550 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/06/30 18:19:51.322 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      497.1µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/06/30 18:20:23.680 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      498.8µs|   match|[44m GET     [0m /seckill   r:/seckill
